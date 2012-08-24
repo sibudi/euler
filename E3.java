@@ -1,6 +1,6 @@
 // http://www.mkyong.com/java/how-to-determine-a-prime-number-in-java/
 
-class test {
+class E3 {
 
    static boolean isPrime( long n ) {
     
