@@ -1,4 +1,7 @@
-// menghitung bilangan fibonaci ganjil yg kurang dari 4juta
+/*
+Author: sibudi.net
+Program: menjumlahkan bilangan fibonaci ganjil yg kurang dari 4juta
+*/
 
 class E2 {
 

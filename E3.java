@@ -1,3 +1,8 @@
+/*
+Author: sibudi.net
+Program: Mencari faktor prima terbesar dari sebuah bilangan
+*/
+
 class E3 {
 
    static boolean isPrime( long n ) {
