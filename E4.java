@@ -20,12 +20,14 @@ class E4 {
 
 		return true;
 
+		//atau bisa menggunakan fungsi bawaan java
+		//return s.equals(new StringBuffer().append(s).reverse().toString());
 	}
 
 	public static void main (String[] args) {
 
-		int i = 0,
-			j = 0,
+		int i = 0, imaks = 0,
+			j = 0, jmaks = 0,
 			bilangan = 998001, // 999 * 999
 			maks = 0;
 
@@ -35,11 +37,15 @@ class E4 {
 
 				bilangan = i * j;
 
-				if (isPalindrom (bilangan) && bilangan > maks)
+				if (isPalindrom (bilangan) && bilangan > maks) {
+				
+					imaks = i;
+					jmaks = j;
 					maks = bilangan;
+				}
 			}
 		}
 
-		System.out.println (maks);
+		System.out.println (imaks + " * " + jmaks + " = " + maks);
 	}
 }

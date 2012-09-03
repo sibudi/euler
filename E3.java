@@ -44,6 +44,12 @@ class E3 {
                cekPrime = false;
             }
 
+            /*
+            mulai periksa dari faktor terbesarnya (b) 
+            yang diperoleh dari pembagian mulai dari angka kecil (a), 
+            lalu dicek prima atau bukan
+            */
+
             a ++;
             if (x % a == 0) {
 
@@ -52,8 +58,9 @@ class E3 {
             }
          }
 
-         System.out.println (b);
+         System.out.println ("Hasil: " + b);
          endTime = System.currentTimeMillis();
+         System.out.print("Waktu: ");
          System.out.println(endTime - startTime);
       }
    }
